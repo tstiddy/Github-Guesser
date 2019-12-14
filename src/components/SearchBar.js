@@ -35,7 +35,7 @@ class SearchBar extends React.Component {
                     <Card.Title>GitHub Guess</Card.Title>
                 <Form onSubmit={this.props.handleSubmit}>
                     <Form.Group >
-                        <Form.Control type="Search" placeholder="Enter Github Username" onChange={this.props.searchInput}/>
+                            <Form.Control type="Search" placeholder="Enter Github Username" onChange={this.props.searchInput}/>
                     </Form.Group>
                     <Button variant="primary" type="submit">
                         Submit
