@@ -2,9 +2,7 @@ import React from 'react';
 import {Form, Button, Card} from 'react-bootstrap';
 
 class SearchBar extends React.Component {
-
-    preparingResult = () => {
-
+    render() {
         let test = [];
 
         for(let [key, value] of Object.entries(this.props.languages)) {
@@ -31,10 +29,6 @@ class SearchBar extends React.Component {
             }
                 return mostFrequent;
         })(test);
-
-    }
-
-    render() {
         return (
             <div className="w-50 text-center mx-auto p-3 mt-2">
                 <Card>
