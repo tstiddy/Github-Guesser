@@ -17,7 +17,7 @@ class SearchBar extends React.Component {
             for(let i = 0, len = array.length; i < len; i++) {
                 let word = array[i];
 
-                if(counts[word] === undefined) {
+                if(counts[word] === undefined) { //counts all the languages and returns the most frequent
                     counts[word] = 1;
                 } else {
                     counts[word] = counts[word] + 1;
