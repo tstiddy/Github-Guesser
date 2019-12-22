@@ -18,7 +18,7 @@ class Main extends React.Component {
         e.preventDefault();
         this.setState({users: [] })
         API.getUser(this.state.searchTerm)
-            .then((data) => this.setState({users: data.map(item => ({
+            .then((data) => this.setState({users: data.map(item => ({ //setting the languages as state
                 language: item.language})
                 )}
             ))
