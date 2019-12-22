@@ -32,7 +32,7 @@ class SearchBar extends React.Component {
         return (
             <div className="w-50 text-center mx-auto p-3 mt-2">
                 <Card>
-                    <Card.Title>GitHub Guess</Card.Title>
+                    <Card.Title>GitHub Guesser</Card.Title>
                 <Form onSubmit={this.props.handleSubmit}>
                     <Form.Group >
                             <Form.Control type="Search" placeholder="Enter Github Username" onChange={this.props.searchInput}/>
