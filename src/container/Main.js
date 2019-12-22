@@ -26,7 +26,7 @@ class Main extends React.Component {
     }
 
     render() {
-        let languages = {...this.state.users}
+        let languages = {...this.state.users} //spreading state
         return (
             <div>
                 <SearchBar searchState={this.state.searchTerm} searchInput={this.searchInput} handleSubmit={this.handleSubmit} languages={languages} hidden={this.state.hidden}/>
