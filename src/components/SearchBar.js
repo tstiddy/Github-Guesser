@@ -42,7 +42,7 @@ class SearchBar extends React.Component {
                     </Button>
                 </Form>
                 {
-                    this.props.hidden ? 
+                    this.props.hidden ?  //turnery showing a blank space or the favorite language
                     <Card.Text>
                     </Card.Text> :
                     <Card.Text>
